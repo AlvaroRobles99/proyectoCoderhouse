@@ -233,7 +233,7 @@ padding-left: 2rem;
 }
 .videoIntro{
     grid-area: videosInicio;
-    max-width: 320px;
+    
 }
 .seccionServicios{
     display: flex;
@@ -270,6 +270,9 @@ footer{
     ;
     justify-content: center;
    }
+.videoIntro{
+    max-width: 320px;
+}   
 }
 @media (min-width: 900px){
     .multimediaInicio{

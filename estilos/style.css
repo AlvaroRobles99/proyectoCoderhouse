@@ -237,7 +237,6 @@ h3 {
 
 .videoIntro {
   grid-area: videosInicio;
-  max-width: 320px;
 }
 
 .seccionServicios {
@@ -271,6 +270,9 @@ h3 {
     gap: 2rem;
     grid-template-areas: "tituloInicio" "imagenInicio" "parrafoInicio" "videosInicio";
     justify-content: center;
+  }
+  .videoIntro {
+    max-width: 320px;
   }
 }
 @media (min-width: 900px) {
