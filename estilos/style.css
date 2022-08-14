@@ -275,6 +275,7 @@ h3 {
 
 .imagenInicio img {
   width: 85%;
+  transform: translate(5%);
 }
 
 @media (max-width: 600px) {
