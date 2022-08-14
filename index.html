@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,21 +34,29 @@
         </header>
        <main>
      <section class="bienvenida">
-        <h1>
+        <h1 data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="700">
           BIENVENIDO
         </h1>
 
      </section>
         <section class="multimediaInicio">
-            <p class="textodeBienvenida">
+            <p class="textodeBienvenida" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="700">
                 Esta es mi pagina web esto es una prueba de funcionalidad junto a un video de introduccion
             </p>
        
             <iframe class="videoIntro" width="560" height="315" src="https://www.youtube.com/embed/1U4TxPSn9eM" 
           title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
-           clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-aos="fade-down"
+           data-aos-easing="linear"
+           data-aos-duration="700"></iframe>
         
-       <div class="imagenInicio">
+       <div class="imagenInicio" data-aos="fade-down"
+       data-aos-easing="linear"
+       data-aos-duration="700">
            <img src="./imagenes/capsule_616x353.jpg" alt="Dota 2">
         </div>
        </section>
@@ -78,6 +88,9 @@
     </section>
         
     </footer>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>

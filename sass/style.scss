@@ -63,6 +63,10 @@ nav ul li{
 a{
     text-decoration: none;
     color: white;
+    transition: 0s;
+}
+a:hover{
+    color: grey;
 }
 h1{
     color: white;
@@ -101,7 +105,11 @@ form{
     padding: 0.1rem;
     margin: 0;
     margin-left: 1rem;
+    transition: 1s;
 
+}
+.icon:hover{
+    scale: 1.5;
 }
 h2 {
     color: white;
@@ -168,6 +176,12 @@ padding-left: 2rem;
     justify-content: space-evenly;
     
 }
+.listaA img{
+    transition: 2s;
+}
+.listaA img:hover{
+    scale: 1.1;
+}
 .listaB{
     display: flex;
     flex-wrap: wrap;
@@ -178,8 +192,11 @@ padding-left: 2rem;
 .listaB img{
     width: 325px;
     height: 200px;
+    transition: 2s;
 
-
+}
+.listaB img:hover{
+    scale: 1.1;
 }
 .subtitulocatalogo{
     font-size: 1.5rem;
